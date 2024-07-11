@@ -1,0 +1,24 @@
+{
+  "name": "proxyscrap",
+  "version": "1.0.0",
+  "description": "ProxyScrap - App to scrape web pages with Nightmare.js and proxy support",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.17.1",
+    "playwright": "^1.45.1",
+    "playwright-extra": "^4.3.6",
+    "promise-poller": "*",
+    "puppeteer": "^22.12.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.8",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "user-agents": "^1.1.258",
+    "vo": "^4.0.2"
+  }
+}
+
