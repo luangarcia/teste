@@ -30,6 +30,7 @@ const firefoxOptions = {
     '--disable-extensions',
     '--start-maximized'
   ],
+  executablePath:'/opt/firefox/firefox',
   defaultViewport: null // Para simular uma janela de navegador maximizada
 };
 
